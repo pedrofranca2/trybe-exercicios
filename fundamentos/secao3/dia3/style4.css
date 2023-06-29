@@ -36,6 +36,9 @@ li em {
 
 /* BONUS */
 
-.style-aliados li a:hover {
-    font-weight: bold;
+.list-ali a {
+text-decoration: none;
 }
+.list-ali a:hover {
+    font-weight: bold;
+} 
