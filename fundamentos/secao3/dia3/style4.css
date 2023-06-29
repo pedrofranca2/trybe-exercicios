@@ -31,5 +31,11 @@ li em {
 }
 
 .java {
-    background-color: black;
+    background-color: pink;
+}
+
+/* BONUS */
+
+.style-aliados li a:hover {
+    font-weight: bold;
 }
