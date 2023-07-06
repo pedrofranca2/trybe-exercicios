@@ -1,5 +1,4 @@
-// const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-const numbers = [70, 8, 100, 2]
+const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let resultSoma = 0;
 let bigger = numbers[0];
 let countImpar = 0;
