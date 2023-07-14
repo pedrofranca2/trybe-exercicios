@@ -1,7 +1,7 @@
 {
-  "name": "gerador-de-senhas",
+  "name": "gerador-de-senha",
   "version": "1.0.0",
-  "description": "Melhor gerador de senhas seguras",
+  "description": "Gerador de Senha Segura",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
