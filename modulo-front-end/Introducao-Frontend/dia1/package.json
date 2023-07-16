@@ -1,0 +1,16 @@
+{
+  "name": "gerador-de-senha",
+  "version": "1.0.0",
+  "description": "Gerador de Senha Segura",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vit --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.2"
+  },
+  "type": "module"
+}
+
