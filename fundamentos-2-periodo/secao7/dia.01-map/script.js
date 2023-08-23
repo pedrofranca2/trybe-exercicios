@@ -37,3 +37,21 @@ const formatedBookNames = () => {
 }
 
 // console.log(formatedBookNames());
+
+// Implemente a função nameAndAge que deve retornar um array de objetos, cada objeto deve conter:
+
+// A chave author, e o valor deve ser o nome da pessoa autora;
+// A chave age, e o valor deve ser a idade da pessoa autora quando lançou o livro.
+
+const nameAndAge = () => {
+    const eachName = data.books.map((book) => {
+        let release = book.releaseYear;
+        let birth = book.author.birthYear;
+        return {
+            author: book.author.name,
+            age: release - birth,
+        }
+    })
+    return eachName;
+}
+console.log(nameAndAge());
