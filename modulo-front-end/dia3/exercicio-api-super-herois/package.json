@@ -1,0 +1,17 @@
+{
+  "name": "exercicio-api-super-herois",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sweetalert2": "^11.7.27",
+    "vite": "^4.4.9"
+  }
+}
