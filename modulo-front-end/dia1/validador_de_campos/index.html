@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
         <h1>Validador de Campos</h1>
     </header>
-    <div>
+    <div class="container">
         <form action="get">
             <label for="value"></label>
                 <input type="text" id="value" placeholder="Insira aqui o valor">
             <label for="typeValue"></label>
                 <select name="typeValue" id="typeValue">
-                    <option value="e-mail">E-mail</option>
-                    <option value="cpf">CPF</option>
-                    <option value="name">Nome</option>
+                    <option value="email">E-mail</option>
+                    <option value="cpf">Cpf</option>
+                    <option value="date">Data de Aniversário</option>
+                    <option value="url">Url</option>
                 </select>
-            <button type="submit">Validar</button>
+            <button type="submit" id="btnValidator">Validar</button>
         </form>
     </div>
     <footer>
-        <h3>Digite o valor, escolha a opção e clique em validar</h3>
+        <p id="footer">Digite o valor, escolha a opção e clique em validar</p>
     </footer>
     <script type="module" src="./src/main.js"></script>
 </body>
