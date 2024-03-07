@@ -33,12 +33,10 @@ const BMI_MAX_AND_MIN = {
   };
 
   function handleBMIResult(bmi) {
-    const statuses = Object.keys(BMI_MAX_AND_MIN); // ['Underweight', 'Normal Weight', 'Overweight'...]
-  
+    const statuses = Object.keys(BMI_MAX_AND_MIN); 
     const resultFind = statuses.find((status) => {
-      const { maxBMI, minBMI } = BMI_MAX_AND_MIN[status]; // acessamos as informações do intervalo da situação iterada
-  
-      // caso esteja dentro do intervalo, significa que encontramos a situação apropriada
+      const { maxBMI, minBMI } = BMI_MAX_AND_MIN[status]; 
+
       return bmi >= minBMI && bmi <= maxBMI;
     });
   
